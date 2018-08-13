@@ -1,0 +1,21 @@
+spring: 
+ profiles: 
+ active: 
+ - dev
+
+---
+server:
+  port: 8020
+spring: 
+ profiles: dev
+ application: 
+ name: microservicecloud-config-dev
+
+---
+spring: 
+ profiles: test
+ application: 
+ name: microservicecloud-config-test
+ 
+server:
+  port: 8021
