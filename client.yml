@@ -9,13 +9,13 @@ server:
 spring: 
  profiles: dev
  application: 
- name: microservicecloud-config-dev
+  name: microservicecloud-config-dev
 
 ---
 spring: 
  profiles: test
  application: 
- name: microservicecloud-config-test
+  name: microservicecloud-config-test
  
 server:
   port: 8021
